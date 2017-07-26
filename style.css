@@ -1,0 +1,35 @@
+body{
+    background: blue;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.singleBurger{
+
+    border: solid 3px purple;
+    background-color: red;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-bottom: 25%;
+    padding: 15%; //  /*changes how close it is to the edge */
+}
+
+.mainContent {
+    border: dashed 5px yellow;
+}
+
+img{
+
+    width:35%;
+    vertical-align: middle;
+}
+
+p{ /* p = paragraph */
+
+    width:64%; /* for text next to edge */
+    display: inline-block;
+    vertical-align: middle;
+}
